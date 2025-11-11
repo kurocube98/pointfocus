@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+    <link rel="icon" href="../images/favicon.png">
+    <title>Point Focus</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#home">
+            <img class="logo-symbol" src="../images/logo.png" alt="Point Focus logo">Point Focus
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menuIcon" id="menuIcon" aria-label="Menu">
+            <img src="../images/ui-controls-editor--menu.svg" alt="menu">
+        </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section id="home" class="intro">
+        <video autoplay muted loop>
+            <source src="../videos/main-video.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h1>Cut. Create. Connect.</h1>
+        </div>
+        <div class="scroll" id="scroll-to-about">
+            Click to Scroll Down! <span>▼</span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About</h2>
+
+        <div class="about-container">
+            <img class="about-profile" src="../images/profile.png" alt="Profile">
+
+            <div class="about-wrap">
+                <h3>정제된 코드와 감각적인 영상으로 사용자 경험을 설계합니다.</h3>
+                <p>
+                    UI/UX를 중심으로 웹 퍼블리싱과 영상 편집을 함께 다루고 있습니다.<br>
+                    코드와 디자인의 경계를 이해하며, 감각적인 연출에도 관심이 많습니다.<br>
+                    모바일 환경과 사용자 흐름을 고려한 화면 구성이 강점입니다.<br>
+                    여러 프로젝트 및 개인 작업을 통해 실전 감각을 쌓고 있으며,<br>
+                    꾸준한 실습과 개선으로 성장 중입니다.
+                </p>
+
+                <div class="skillset">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>
+                            <img src="../images/icons/HTML5.svg" alt="HTML5">
+                            <span>HTML5</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/CSS3.svg" alt="CSS3">
+                            <span>CSS3</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/JavaScript.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/Adobe Premiere Pro.svg" alt="Premiere Pro">
+                            <span>Premiere Pro</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/After Effects.svg" alt="After Effects">
+                            <span>After Effects</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/Figma.svg" alt="Figma">
+                            <span>Figma</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/Adobe Illustrator.svg" alt="Illustrator">
+                            <span>Illustrator</span>
+                        </li>
+                        <li>
+                            <img src="../images/icons/Adobe Photoshop.svg" alt="Photoshop">
+                            <span>Photoshop</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <h2>Works</h2>
+
+        <div class="slider-wrapper">
+            <button class="slider-btn prev" type="button" aria-label="Previous work">
+                <img src="../images/arrow_last.svg" alt="Previous">
+            </button>
+
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slide-card">
+                        <div class="media-wrap">
+                            <img src="../images/thumbnail1.png" alt="Work 1">
+                            <video src="../videos/video1.mp4" muted loop></video>
+                        </div>
+                        <p>Shape</p>
+                    </div>
+
+                    <div class="slide-card">
+                        <div class="media-wrap">
+                            <img src="../images/thumbnail2.png" alt="Work 2">
+                            <video src="../videos/video2.mp4" muted loop></video>
+                        </div>
+                        <p>V-log</p>
+                    </div>
+
+                    <div class="slide-card">
+                        <div class="media-wrap">
+                            <img src="../images/thumbnail3.png" alt="Work 3">
+                            <video src="../videos/video3.mp4" muted loop></video>
+                        </div>
+                        <p>Travel</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn next" type="button" aria-label="Next work">
+                <img src="../images/arrow_next.svg" alt="Next">
+            </button>
+        </div>
+
+        <div class="slider-indicators">
+            <img src="../images/indicator dot.svg" class="dot active" alt="slide 1">
+            <img src="../images/indicator dot.svg" class="dot" alt="slide 2">
+            <img src="../images/indicator dot.svg" class="dot" alt="slide 3">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-inner">
+            <p>이메일: kurocube98@naver.com</p>
+            <a class="apply-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfO1sYsxiJzOdriXs19qOByPVrONstIAk9_-Y7jqDdmyDR1mw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                신청하기
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>©All rights reserved. created by kurocube</p>
+    </footer>
+
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>
